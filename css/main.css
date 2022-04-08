@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.header{
+    max-width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+}
+
+.reg-form{
+    width: 481px;
+    height: 392px;
+    margin-top: 30px;
+    margin-left: 272px;
+    background: #F7F5F9;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.reg-form__title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    margin-left: 40px;
+    padding-top: 40px;
+    }
+
+.reg-form__title:hover{
+        text-decoration: underline #6979F8;
+    }
+
+.form-fields{
+    margin-left: 40px;
+}
+
+.form-field{
+    width: 401px;
+    height: 48px;
+    margin-bottom: 25px;
+    color: #97151f;
+}
+
+input{
+    width: 401px;
+    height: 48px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 6px;
+    background: #FFFFFF;
+    padding-left: 15px;
+    font-size: 15px;
+    color: black;
+}
+
+.form-field__id{
+    color: #97151f;
+}
+
+input:hover{
+    border: 1px solid #6979F8;
+}
+
+input:hover{
+    text-decoration: underline #6979F8;
+}
+
+.reg-form__button{
+    width: 401px;
+    height: 48px;
+    background: #6979F8;
+    border-radius: 6px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.reg-form__button:hover{
+    border: 2px solid #6979F8;
+
+}
+
+.button{
+    width: 169px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    margin: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    background: #6979F8;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    text-decoration: underline #86CCFF;
+}
